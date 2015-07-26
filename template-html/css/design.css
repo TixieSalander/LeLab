@@ -1169,6 +1169,9 @@ a.secondsubmit:hover {
         width: calc(100% - 4em);
         font-size: 1em;
     }
+    .linkheadwrap {
+        padding: 1.5em 3% 0;
+    }
 }
 @media screen and (max-width: 25em) {
     .linkdomain {
