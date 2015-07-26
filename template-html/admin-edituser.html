@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Administration : Modifier le rang d'un utilisateur | Le lab de Design Diver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scape=1" />
+
+    <meta name="Description" content="description">
+    <meta name="Keywords" content="mot clés,mot clé">
+    <meta name="Robots" content="all">
+    <meta name="Rating" content="general">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/design.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <ul>
+                <li>
+                    <a href="" title="Accueil">
+                        <img src="img/logo.svg" alt="Logo" /> <span>Le Lab</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" title="Retour à Design Diver">
+                        <img src="img/logo-dd.svg" alt="Logo Design Diver" /> <span>Le Site</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <label for="menu-toggle">
+            <span id="menu-ico">
+                <i class="fa fa-bars"></i>
+            </span>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
+
+        </div>
+        <div id="menu">
+            <nav>
+                <a href="" title="Catégories"><i class="fa fa-tags"></i><span>Catégories</span></a>
+                <a href="" title="Notifications"><i class="fa fa-bell"></i><span>Notifications</span><span class="onenotif"></span></a>
+                <a href="" title="Profil"><i class="fa fa-user"></i><span>Profil</span></a>
+            </nav>
+            <div id="menuright">
+                <a href="" title="Se déconnecter" class="decolink">
+                    <i class="fa fa-sign-out"></i><span>Déconnexion</span>
+                </a>
+                <a href="" title="Ajouter un lien">
+                    <i class="fa fa-plus"></i><span>Ajouter</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="wrap">
+            <div id="pagehead">
+                <div id="pagetitle">
+                    <h2>Administration</h2>
+                    <h3>Modifier le rang d'un utilisateur</h3>
+                </div>
+            </div>
+
+            <div id="whitepage" class="center">
+                <div id="adminmenu">
+                    <ul>
+                        <li>
+                            <a href="" title="Administrer les liens">
+                                <i class="fa fa-link"></i>Liens
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" title="Administrer les catégories">
+                                <i class="fa fa-tags"></i>Catégories
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="" title="Administrer les utilisateurs">
+                                <i class="fa fa-users"></i>Utilisateurs
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="clearfloat"></div>
+                </div>
+
+
+                <form>
+
+                    <div class="input-wrapper">
+                        <select name="frang">
+                            <option>Membre</option>
+                            <option>Administrateur</option>
+                        </select>
+                    </div>
+                    <div class="submit-wrapper">
+                        <input type="submit" name="fsubmit" value="Modifier le rang de Théotix">
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="wrap">
+            <p>
+                Code sous licence libre disponible sur <a href="" title="Dépôt git du lab">Github</a>
+                <br/>
+                <a href="" title="Lien vers les mentions légales">Mentions légales</a>
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {
+                families: ['Lato:400,700:latin', 'Lora::latin']
+            }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+
+    </script>
+</body>
+
+</html>
