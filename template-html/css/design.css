@@ -788,6 +788,7 @@ a.button {
     border-radius: 5em;
 }
 a.button:hover {
+    cursor: pointer;
     background: #291D2C;
 }
 
@@ -916,19 +917,6 @@ textarea:focus + label {
     -o-transform: translateY(-1.5em);
     -ms-transform: translateY(-1.5em);
     transform: translateY(-1.5em);
-}
-button.subbutton {
-    display: inline-block;
-    padding: 0.75em 1em;
-    color: #fff;
-    text-decoration: none;
-    background: #352639;
-    border: none;
-    border-radius: 5em;
-}
-button.subbutton:hover {
-    cursor: pointer;
-    background: #291d2c;
 }
 
 /* Message */
@@ -1065,7 +1053,7 @@ a.secondsubmit:hover {
         margin-left: 3%;
         margin-right: 3%;
     }
-    .linkabout a{
+    .linkabout a {
         padding: 1em 3%;
     }
     .commentavatar {
