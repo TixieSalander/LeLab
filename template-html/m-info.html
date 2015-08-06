@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Une infobulle d'information | Le lab de Design Diver</title>
+    <meta name="viewport" content="width=device-width, initial-scape=1" />
+
+    <meta name="Description" content="description">
+    <meta name="Keywords" content="mot clés,mot clé">
+    <meta name="Robots" content="all">
+    <meta name="Rating" content="general">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/design.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="infobulle">
+        <div class="message-wrapper">
+            <i class="fa fa-info-circle"></i> <span>Bla bla bla <b>:&#41;</b></span>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {
+                families: ['Lato:400,700:latin', 'Lora::latin']
+            }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+
+    </script>
+</body>
+
+</html>
