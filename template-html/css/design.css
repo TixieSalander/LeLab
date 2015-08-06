@@ -997,7 +997,7 @@ textarea:focus + label {
     top: 0;
     width: 100%;
     text-align: center;
-    z-index: 2;
+    z-index: 43;
 }
 .infobulle .message-wrapper {
     max-width: 40em;
