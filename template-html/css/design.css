@@ -176,6 +176,13 @@ article {
     overflow: hidden;
 }
 
+/* Pas de lien */
+
+#apu {
+    padding: 1em 3%;
+    text-align: center;
+}
+
 /* Link */
 
 .link {
