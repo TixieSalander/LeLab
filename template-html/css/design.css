@@ -818,6 +818,10 @@ b {
     background: #FFF;
     border-radius: 0.3em;
 }
+#whitepage p {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
 .centre {
     margin: 0 auto;
     text-align: center;
