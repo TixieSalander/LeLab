@@ -1004,6 +1004,8 @@ textarea:focus + label {
     margin: auto;
     text-align: center;
     padding: 0.75em 1em;
+    border: 0.15em solid #352639;
+    border-top: none;
     border-radius: 0 0 0.3em 0.3em;
 }
 
