@@ -1030,8 +1030,10 @@ textarea:focus + label {
 
 .submit-wrapper input[type="submit"] {
     display: inline-block;
+    white-space: normal;
     margin-bottom: 1em;
-    width: 40%;
+    width: inherit;
+    min-width: 16em;
     max-width: 95%;
     color: #fff;
     font-size: 1.2em;
